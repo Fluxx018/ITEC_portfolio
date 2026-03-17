@@ -1,0 +1,283 @@
+*{
+    border: 0;
+    margin: 0;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: #00FFFF;
+}
+nav{
+    background-color: transparent;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 clamp(1.2rem, 2.625vw, 9.0rem) 0 clamp(7.20rem, 15.750vw, 54.00rem);
+    position: fixed;
+    top: 0;
+}
+.home{
+    font-size: clamp(0.8rem, 1.75vw, 6.0rem);
+    cursor: pointer;
+}
+.navContain{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ul1{
+    width: 45vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.navText{
+    font-size: clamp(0.68rem, 1.487vw, 5.1rem);
+}
+.navText:hover{
+    border-bottom: clamp(0.08rem, 0.175vw, 0.6rem) solid black;
+    cursor: pointer;
+}
+.ul2{
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(0.4rem, 0.875vw, 3.0rem);
+    list-style: none;
+}
+.fb, .ig, .tg{
+    width: clamp(1.2rem, 2.625vw, 9.0rem);
+    height: clamp(1.2rem, 2.625vw, 9.0rem);
+    border-radius: clamp(1.2rem, 2.625vw, 9.0rem);
+    background-color: #1b384b;
+}
+.landPage, .moreInfo, .skills{
+    background-image: url(bg1.png);
+    background-color:#1A1A1A;
+    height: 100dvh;
+}
+.landPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.mainContain{
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+    padding-left: clamp(0.8rem, 1.75vw, 6.0rem);
+    margin-bottom: clamp(6.80rem, 14.875vw, 51.00rem);
+    margin-left: clamp(3.2rem, 7vw, 24.0rem);
+    gap: clamp(0.4rem, 0.875vw, 3.0rem);
+    padding-bottom: clamp(2rem, 4.375vw, 15.0rem);
+}
+.mainText{
+    width: 38vw;
+    height: 15vh;
+    background-color: rgb(77, 102, 28);
+    font-size: clamp(2.2rem, 4.813vw, 16.5rem);
+    color: #57D3FF;
+    background-color: #242424;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: clamp(0.4rem, 0.875vw, 3.0rem);
+    border-radius: clamp(0.4rem, 0.875vw, 3.0rem);
+}
+.subText{
+    width: 33vw;
+    height: 13vh;
+    font-size: clamp(1.8rem, 3.938vw, 13.5rem);
+    margin-bottom: clamp(0.2rem, 0.437vw, 1.5rem);
+    color: #00AEEF;
+    background-color: #2A2A2A;
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: clamp(0.4rem, 0.875vw, 3.0rem);
+    border-radius: clamp(0.4rem, 0.875vw, 3.0rem);
+}
+.mainBtn{
+    width: 15vw;
+    height: 8vh;
+    border-radius: clamp(0.4rem, 0.875vw, 3.0rem);
+    background-color: #00FFFF;
+    color: #0A0A0A;
+    font-size: clamp(1rem, 2.188vw, 7.5rem);
+    font-family: 'Exo 2', sans-serif;
+}
+.mainImg{
+    width: 30vw;
+    height: 50vh;
+    background-color: #1b384b;
+    margin-bottom: clamp(6.80rem, 14.875vw, 51.00rem);
+    margin-right: clamp(0.4rem, 0.875vw, 3.0rem);
+}
+.moreInfo{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    gap: clamp(2rem, 4.375vw, 15.0rem);
+}
+.subHead, .skillText, .projectText{
+    width: fit-content;
+    height: 12vh;
+    background-color: bisque;
+    color: #57D3FF;
+    background-color: #242424;
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(2rem, 4.375vw, 15.0rem);
+    text-align: center;
+    padding: 0 clamp(0.8rem, 1.75vw, 6.0rem) 0 clamp(0.8rem, 1.75vw, 6.0rem);
+    border-radius: clamp(0.4rem, 0.875vw, 3.0rem);
+}
+.subContain1{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: clamp(2.8rem, 6.125vw, 21.0rem);
+}
+.subImg{
+    width: 30vw;
+    height: 50vh;
+    background-color: #1b384b;
+    margin-left: clamp(5.60rem, 12.250vw, 42.00rem);
+}
+.subContain{
+    width: 36vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-right: clamp(6.00rem, 13.125vw, 45.00rem);
+}
+.subText1{
+    width: 38vw;
+    height: 10vh;
+    background-color: rgb(77, 102, 28);
+    font-size: clamp(1.2rem, 2.625vw, 9.0rem);
+    color: #57D3FF;
+    background-color: #242424;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: clamp(0.4rem, 0.875vw, 3.0rem);
+}
+.subText2{
+    width: 36vw;
+    height: 38vh;
+    background-color: blue;
+    font-size: clamp(0.8rem, 1.75vw, 6.0rem);
+    padding: 0 clamp(0.4rem, 0.875vw, 3.0rem) 0 clamp(0.4rem, 0.875vw, 3.0rem);
+    color: #00AEEF;
+    background-color: #2A2A2A;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: clamp(0.4rem, 0.875vw, 3.0rem);
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.skillCarousel{
+    width: 70vw;
+    height: 40vh;
+    background-color: rgba(243, 240, 240, 0.15);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5rem;
+    border-radius: clamp(0.4rem, 0.875vw, 3.0rem);
+}
+.prev, .next{
+    width: clamp(1.2rem, 2.625vw, 9.0rem);
+    height: clamp(2rem, 4.375vw, 15.0rem);
+    border-radius: clamp(2rem, 4.375vw, 15.0rem);
+    background-color: #00FFFF;
+    font-size: clamp(1rem, 2.188vw, 7.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skillsImg{
+    width: 60vw;
+    height: 30vh;
+    background-color: #1A1A1A;
+    border-radius: clamp(0.4rem, 0.875vw, 3.0rem);
+}
+.projects{
+    height: 150vh;
+    background-image: url(bg1.png);
+    background-color:#1A1A1A;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: clamp(2rem, 4.375vw, 15.0rem);
+}
+.projectsContain{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: clamp(2rem, 4.375vw, 15.0rem);
+}
+.prj12, .prj34{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+} 
+.project1, .project2, .project3, .project4{
+    width: 38vw;
+    height: 50vh;
+    background-color: #262626;
+    color: #D8D8D8;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    padding-left: clamp(1.2rem, 2.625vw, 9.0rem);
+    border-radius: clamp(0.4rem, 0.875vw, 3.0rem);
+}
+.prj1Img, .prj2Img, .prj3Img, .prj4Img{
+    width: 25vw;
+    height: 25vh;
+    background-color: rgb(31, 49, 49);
+}
+.prj1Text, .prj2Text, .prj3Text, .prj4Text{
+    width: 35vw;
+    height: 5vh;
+    color: #57D3FF;
+    background-color: rgba(243, 240, 240, 0.15);
+    border-radius: clamp(0.4rem, 0.875vw, 3.0rem);
+}
+.prj1Btn, .prj2Btn, .prj3Btn, .prj4Btn{
+    width: 10vw;
+    height: 7vh;
+    border-radius: clamp(0.4rem, 0.875vw, 3.0rem);
+    background-color: #00FFFF;
+    color: #0A0A0A;
+}
